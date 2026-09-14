@@ -1,0 +1,708 @@
+{
+  "dataset": "dev.jsonl",
+  "note": "Development comparison only; no automatic tuning on test cases.",
+  "runs": [
+    {
+      "config": {
+        "threshold": 0.4,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 0.51
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.5,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 0.52
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.6,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 0.509
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.62,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 0.546
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.7,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 0.549
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.8,
+        "mode": "bm25",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7083,
+        "answerable_answer_rate": 0.8333,
+        "abstention_recall": 1.0,
+        "abstention_precision": 0.8571,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.4167,
+        "gold_evidence_answer_precision": 0.8,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.8,
+        "latency_p50_ms": 0.498
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.4,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.902
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.5,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.966
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.6,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.872
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.62,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 3.027
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.7,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.856
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.8,
+        "mode": "dense",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.7222,
+        "answerable_answer_rate": 0.8333,
+        "abstention_recall": 1.0,
+        "abstention_precision": 0.8571,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.4167,
+        "gold_evidence_answer_precision": 0.8,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.8,
+        "latency_p50_ms": 2.805
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.4,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.863
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.5,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.765
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.6,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.785
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.62,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.819
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.7,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 1.0,
+        "abstention_recall": 1.0,
+        "abstention_precision": 1.0,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.5,
+        "gold_evidence_answer_precision": 0.6667,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.6667,
+        "latency_p50_ms": 2.811
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    },
+    {
+      "config": {
+        "threshold": 0.8,
+        "mode": "hybrid",
+        "k": 5,
+        "generator": "extractive-v1",
+        "index": {
+          "library": "HTTPX",
+          "version": "0.28.1",
+          "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "manifest_sha256": "76625f71d2b17a7bc584676415fbd3834c1ccf6a9ea53d36b6dd6c8609564a6f",
+          "document_count": 12,
+          "chunk_count": 117,
+          "chunker": "markdown-lines-v1",
+          "max_chars": 1200,
+          "schema_version": 1,
+          "embedding_backend": "hash-v1-512",
+          "dimensions": 512
+        }
+      },
+      "metrics": {
+        "cases": 12,
+        "answerable_cases": 6,
+        "unanswerable_cases": 6,
+        "errors": 0,
+        "retrieval_hit_rate_at_k": 1.0,
+        "mrr_at_k": 0.75,
+        "answerable_answer_rate": 0.8333,
+        "abstention_recall": 1.0,
+        "abstention_precision": 0.8571,
+        "false_answer_rate": 0.0,
+        "answer_coverage": 0.4167,
+        "gold_evidence_answer_precision": 0.8,
+        "citation_validity": 1.0,
+        "gold_quote_citation_precision": 0.8,
+        "latency_p50_ms": 2.756
+      },
+      "dataset_sha256": "0784855856e412e180421797186999dc14fa2eccf6b2393a650c9037870511e0"
+    }
+  ]
+}

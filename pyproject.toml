@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doccite-rag"
+version = "0.1.0"
+description = "A documentation RAG assistant with verifiable passage citations and abstention evaluations."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT AND BSD-3-Clause"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "src/doccite/corpus/httpx/LICENSE.md"]
+keywords = ["rag", "retrieval", "embeddings", "evaluation", "citations"]
+dependencies = []
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3.4,<6"]
+api = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1"]
+dev = ["pytest>=8.3,<10", "httpx>=0.28,<1", "ruff>=0.11,<1", "build>=1.2,<2"]
+
+[project.scripts]
+doccite = "doccite.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+doccite = ["corpus/httpx/*.json", "corpus/httpx/*.md", "corpus/httpx/docs/*.md", "corpus/httpx/docs/advanced/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["src/doccite/corpus"]
+force-exclude = true
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

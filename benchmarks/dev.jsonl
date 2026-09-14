@@ -1,0 +1,12 @@
+{"id": "dev-01", "question": "What is the default timeout for network inactivity?", "answerable": true, "category": "factual", "gold": [{"path": "docs/quickstart.md", "quote": "The default timeout for network inactivity is five seconds."}], "annotation": ""}
+{"id": "dev-02", "question": "Why use a Client for connection pooling?", "answerable": true, "category": "factual", "gold": [{"path": "docs/advanced/clients.md", "quote": "the `Client` will reuse the underlying TCP connection"}], "annotation": ""}
+{"id": "dev-03", "question": "How do I disable timeouts on a client?", "answerable": true, "category": "factual", "gold": [{"path": "docs/advanced/timeouts.md", "quote": "client = httpx.Client(timeout=None)"}], "annotation": ""}
+{"id": "dev-04", "question": "How do I configure HTTP proxies?", "answerable": true, "category": "procedural", "gold": [{"path": "docs/advanced/proxies.md", "quote": "with httpx.Client(proxy=\"http://localhost:8030\") as client:"}], "annotation": ""}
+{"id": "dev-05", "question": "What types of event hooks are available?", "answerable": true, "category": "factual", "gold": [{"path": "docs/advanced/event-hooks.md", "quote": "* `request` - Called after a request is fully prepared"}], "annotation": ""}
+{"id": "dev-06", "question": "Does HTTPX verify HTTPS connections by default?", "answerable": true, "category": "factual", "gold": [{"path": "docs/advanced/ssl.md", "quote": "By default httpx will verify HTTPS connections"}], "annotation": ""}
+{"id": "dev-07", "question": "What uptime SLA does HTTPX guarantee?", "answerable": false, "category": "unsupported_guarantee", "gold": [], "annotation": ""}
+{"id": "dev-08", "question": "How do I train a neural network with HTTPX?", "answerable": false, "category": "out_of_scope", "gold": [], "annotation": ""}
+{"id": "dev-09", "question": "What exact requests per second will HTTPX achieve on my laptop?", "answerable": false, "category": "missing_context", "gold": [], "annotation": ""}
+{"id": "dev-10", "question": "What date will HTTPX release version 9.0?", "answerable": false, "category": "future_version", "gold": [], "annotation": ""}
+{"id": "dev-11", "question": "Which HTTPX configuration guarantees zero packet loss?", "answerable": false, "category": "unsupported_guarantee", "gold": [], "annotation": ""}
+{"id": "dev-12", "question": "How do I configure HTTPX to store cookies in a PostgreSQL database automatically?", "answerable": false, "category": "plausible_unsupported_feature", "gold": [], "annotation": ""}

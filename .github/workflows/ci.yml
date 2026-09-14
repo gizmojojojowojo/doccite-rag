@@ -1,0 +1,36 @@
+name: Verify and evaluate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e ".[api,dev]" -c constraints-ci.txt
+      - run: ruff check src tests scripts
+      - run: ruff format --check src tests scripts
+      - run: pytest -q
+      - run: doccite ingest
+      - run: >-
+          doccite evaluate --output reports/ci.json
+          --max-false-answer-rate 0.10 --min-retrieval-hit-rate 0.85
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evaluation-python-${{ matrix.python }}
+          path: |
+            reports/ci.json
+            reports/ci.md

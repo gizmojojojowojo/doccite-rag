@@ -1,0 +1,69 @@
+{
+  "library": "HTTPX",
+  "version": "0.28.1",
+  "repository": "https://github.com/encode/httpx",
+  "revision": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+  "license": "BSD-3-Clause",
+  "files": [
+    {
+      "path": "docs/quickstart.md",
+      "sha256": "9f8351551dd18be0ed7e40dea2f1c231523a2e8833a0bb5c471630178ec2aea8",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/quickstart.md"
+    },
+    {
+      "path": "docs/async.md",
+      "sha256": "dd32e675ef994bb136e5414e5a2636db6e75418ce557ee6f731fddb924e47e4e",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/async.md"
+    },
+    {
+      "path": "docs/http2.md",
+      "sha256": "51010101b5aff566dcdfdf94cb5e0ef644caf5411b84749753a9da79d28caaf7",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/http2.md"
+    },
+    {
+      "path": "docs/exceptions.md",
+      "sha256": "5e59ac5575373f359c45b8685cfb5813ba8d3a834052c7c0427789b32722324f",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/exceptions.md"
+    },
+    {
+      "path": "docs/advanced/clients.md",
+      "sha256": "80d0496f33dc995d40ebb573301b0de360fbe90dffd4a0641a078701e5abaac0",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/clients.md"
+    },
+    {
+      "path": "docs/advanced/timeouts.md",
+      "sha256": "48959a587ecc6430f9051ab1b1c76fcebc3f3e95ec01199281aab813a2dcfaa1",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/timeouts.md"
+    },
+    {
+      "path": "docs/advanced/resource-limits.md",
+      "sha256": "48463dfbcc09e28b174cf07695a937119da537436dc534421b64dcca7a024559",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/resource-limits.md"
+    },
+    {
+      "path": "docs/advanced/transports.md",
+      "sha256": "55648dd15c551f151f538aa79c8d2934bb581528d85bcc0fe3d810ac4a5ca382",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/transports.md"
+    },
+    {
+      "path": "docs/advanced/proxies.md",
+      "sha256": "38f3be3b3babe015f9b9878c8ed207144e860a572b5c1dbf8eb7924d4a738960",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/proxies.md"
+    },
+    {
+      "path": "docs/advanced/ssl.md",
+      "sha256": "96dc8e954c5965bcf2ee68f436a143bcc8dab3cd647aa1631c1190593d241831",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/ssl.md"
+    },
+    {
+      "path": "docs/advanced/event-hooks.md",
+      "sha256": "96d292f95b3412c54f7f862fd38a569b0efb2bd51a6cacdd5b391072262b9558",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/event-hooks.md"
+    },
+    {
+      "path": "docs/advanced/authentication.md",
+      "sha256": "490c0393f5af1bdcf70ed5dc6e296d75f4a4035d1916f2262102de61c623dc04",
+      "url": "https://github.com/encode/httpx/blob/26d48e0634e6ee9cdc0533996db289ce4b430177/docs/advanced/authentication.md"
+    }
+  ]
+}
